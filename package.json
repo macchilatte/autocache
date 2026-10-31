@@ -1,0 +1,29 @@
+{
+  "name": "autocache",
+  "version": "1.0.0",
+  "description": "Tiny zero-dependency in-memory cache with TTL and LRU eviction",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "cache",
+    "memory-cache",
+    "ttl",
+    "lru",
+    "lightweight"
+  ],
+  "license": "MIT"
+}
